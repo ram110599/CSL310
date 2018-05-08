@@ -1,0 +1,11 @@
+In 1(a) I have calculated the total number of rental movies of the particular language_id in the film table. For this I have used the Count and Inner Join and Group by to give the required result. In the film table only one language_id is present rest are absent. So the average movie by language will be total number of rental movie of that type.
+
+In 1(b) I have calculated the total number of movie rented of a certain film_id. Since movies rented are of certain film_id. Some movies of certain film_id are not rented. Hence I have counted the number of movies which have been rented and of the certain film_id. The movies which have not been rented of certain film_id is 0.
+
+In 1(c) I have calculated the number of movies rented of certain rating.
+
+In 2 I have checked that payment date is less than return date.
+
+In 3 I have joined all the tables and used sum to calculate the total income of the films by a particular actor in decreasing order.
+
+In 5 I have checked the staff by counting the total number of movie rented by the staff. 

@@ -1,0 +1,11 @@
+Name = Ram Krishna
+Entry No = 2016csb1053
+---------------------------------------------------------------------------------------------------------------------------
+For compiling:
+	$javac p1.java
+For running:
+	$java -cp ./mysql-connector-java-5.1.46.jar:. p1 jdbc:mysql://localhost:3306/sakila
+---------------------------------------------------------------------------------------------------------------------------
+
+In this assignment I learnt how to use sql via java. I learnt how to use sql DatabaseMetaData and its api from oracle docs.
+I used internet to learn a lot of things which i find difficult to learn from docs. I came across a lot of functions and their arguements. I also learnt how to set connection and use any method. For executing all the things I used api but for counting rows I used query and a method to count number of rows. I stored all the result in different array and at last I caluclated min, max and average of each quantity. 

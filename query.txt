@@ -1,0 +1,6 @@
+select * from person where person_id in (select person_id from team_member where (salary between 30000 and 100000) and (team_id = (select team_id from team where name = 'Team-2')) and (role='Player'));
+
+select count(person_id), role  from team_member where team_id=(select team_id from team where name='Team-2')  group by role;
+
+select avg(salary) from team_member where role = 'Player' and person_id in (select person_id from person where contact_id in (select contact_id from contact where state="Bihar"));
+
